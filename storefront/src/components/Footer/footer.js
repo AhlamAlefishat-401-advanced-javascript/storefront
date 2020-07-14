@@ -3,8 +3,11 @@ import React from 'react';
 function Footer(props) {
     return (
         <>
-        <p>copy right @ 2020</p>
-        <p>Contact Us:</p>
+         <div className="footer">
+             <p>copy right @ 2020 Contact Us:</p>
+        
+        </div>
+        
         </>
     )
 }

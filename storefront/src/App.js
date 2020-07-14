@@ -5,32 +5,23 @@ import Products from './components/storefront/products';
 import Categories from './components/storefront/categories';
 import Header from './components/Header/header.js';
 import Footer from './components/Footer/footer.js';
-
+import Cart from './components/storefront/Cart';
 import CssBaseline from '@material-ui/core/CssBaseline';
 function App() {
   return (
     <>
       <CssBaseline >
         <Header />
+        <div className="cat">
         <Categories />
+        <Cart />
+        </div>
         <Products />
         <Footer />
       </CssBaseline>
     </>
   );
 }
-
-// function App() {
-//     return (
-//             <div className='App'>
-//                 <Header />
-//                     <Categories />
-//                     <Products />
-//                 <Footer />
-//             </div>
-//     );
-// }
-
 
 
 export default App;
