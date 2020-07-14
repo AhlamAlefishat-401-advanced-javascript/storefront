@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Button } from '@material-ui/core';
 import { Link } from '@material-ui/core';
-import {remove} from '../../store/cart.js'
+import {remove} from '../../store/cart.js';
+
 const Cart = props => {
     return (
         <div className='cartx'>
