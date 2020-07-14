@@ -9,7 +9,8 @@
 - [Submission PR]()
 
 #### Modules
-- Node.js 
+- React  
+
 
 #### Packages
 - Redux
